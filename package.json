@@ -1,0 +1,33 @@
+{
+  "name": "organic-stem-cell-template",
+  "description": "",
+  "version": "0.0.0",
+  "bin": {
+    "organic-stem-cell-template": "./index.js"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "organic-stack-upgrade": "^2.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^4.18.2",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.7.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "jest": "^24.5.0",
+    "organic-stem-core-template": "github:node-organic/organic-stem-core-template"
+  },
+  "jest": {
+    "testPathIgnorePatterns": [
+      "/node_modules/",
+      "/seed/"
+    ]
+  },
+  "stackUpgrades": {
+    "organic-stack-template": "2.0.0"
+  }
+}
