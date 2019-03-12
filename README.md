@@ -7,5 +7,5 @@
 ```
 $ mkdir ./myProject
 $ cd ./myProject
-$ npx organic-stem-cell-template
+$ npx node-organic/organic-stem-cell-template
 ```
